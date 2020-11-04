@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:gravity="center_vertical"
+    android:background="@color/colorPrimary">
+
+    <Button
+        android:id="@+id/btn_back1"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:background="@null"
+        android:drawableStart="@drawable/back"
+        android:paddingStart="16dp"
+        android:onClick="back1" />
+
+    <TextView
+        android:id="@+id/tv_title1"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"
+        android:gravity="center_vertical"
+        android:text="光华讲坛"
+        android:textColor="@android:color/white"
+        android:textSize="22sp" />
+
+    <ImageButton
+        android:id="@+id/btn_operation"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentEnd="true"
+        android:background="@null"
+        android:gravity="center"
+        android:paddingEnd="16dp"
+        android:src="@drawable/btn_operation" />
+
+</RelativeLayout>
