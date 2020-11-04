@@ -76,7 +76,7 @@ public class MyCollection extends AppCompatActivity implements AdapterView.OnIte
                     @Override
                     public void onClick(DialogInterface dialog, int which) {
                         contentManager = new ContentManager(MyCollection.this);
-                        TextView title = view.findViewById(R.id.listTitle);
+                        TextView title = view.findViewById(R.id.listTitle2);
                         ArrayAdapter adapter = (ArrayAdapter) parent.getAdapter();
                         adapter.remove(parent.getItemAtPosition(position));
                         contentManager.onDelete(title.getText().toString());
